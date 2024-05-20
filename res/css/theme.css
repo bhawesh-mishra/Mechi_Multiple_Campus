@@ -1,0 +1,13 @@
+:root {
+  accent-color: #00aff0; /*you will not use this; it is used by browser!*/
+  --accent-color: #2b6eb5;
+  --tertiary-color: #f36710;
+  --secondary-color: black;
+  --main-color: white;
+  --out_of_focus-color: rgba(100, 100, 100, 0.4);
+  --container-border_radius: 1.6rem;
+  --input-border_radius: 0.4rem;
+  --input-padding: 0.8rem;
+  --transition-time: 0.3s;
+  --h1-size: 2rem;
+}
