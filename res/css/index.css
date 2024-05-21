@@ -54,6 +54,7 @@ button {
   width: max-content;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
   color: var(--main-color);
   background-color: var(--accent-color);
 }
