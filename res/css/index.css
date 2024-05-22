@@ -1,6 +1,5 @@
 body {
   font-family: Arial, Helvetica, sans-serif, system;
-  background-color: var(--out_of_focus-color);
 }
 main {
   border-radius: var(--container-border_radius);
@@ -12,6 +11,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2ch 0;
+  box-shadow: var(--header-shadow);
   background-color: var(--main-color);
 }
 section {

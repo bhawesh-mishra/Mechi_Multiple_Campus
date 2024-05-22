@@ -1,6 +1,7 @@
 :root {
   accent-color: #00aff0; /*you will not use this; it is used by browser!*/
   --accent-color: #2b6eb5;
+  --primary-color: #ee161f;
   --tertiary-color: #f36710;
   --secondary-color: black;
   --main-color: white;
@@ -12,4 +13,15 @@
   --h1-size: 2rem;
   --grid-gap: 0.5rem;
   --header-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+  font-family: Arial, Helvetica, sans-serif, system;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+a:active,
+a:hover {
+  color: var(--tertiary-color)
 }
