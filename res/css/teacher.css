@@ -48,7 +48,6 @@ button {
   justify-content: center;
   position: relative;
   font-size: larger;
-  color: var(--accent-color);
 }
 #title:after {
   content: "";
@@ -57,7 +56,7 @@ button {
   height: 2px;
   width: 70px;
   transition: 0.5s ease-out;
-  background: #3d6098;
+  background: var(--primary-color);
 }
 #title:hover::after {
   transform: scaleX(1);
@@ -70,12 +69,17 @@ section {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  display: grid;
-  grid-template-rows: repeat(2, 2fr);
-  grid-template-columns: repeat(2, 2fr);
+  display: flex;
   gap: 2rem;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+#new-action,
+#update-action {
+  display: flex;
+  gap: 2rem;
 }
 
 article {
@@ -94,7 +98,7 @@ article:hover {
 
 article > img {
   margin-right: 2ch;
-  height: calc(var(--h1-size) * 2 + 1rem);
+  height: calc(var(--h2-size) * 2 + 1rem);
   width: auto;
 }
 
