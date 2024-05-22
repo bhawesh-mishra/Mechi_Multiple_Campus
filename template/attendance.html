@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance</title>
+    <link rel="stylesheet" href="../res/css/theme.css" />
+    <link rel="stylesheet" href="../res/css/attendance.css" />
+  </head>
+  <body>
+    <header>
+      <span id="logo">
+        <img src="../res/img/TU-Logo.svg.png" alt="TU Logo" />
+        <h2>Mechi Multiple Campus</h2>
+      </span>
+      <button id="logout">Log out</button>
+    </header>
+    <main>
+      <section>
+        <div class="selector">
+          <label for="program">Program</label>
+          <select name="program" id="program">
+            <option value="none">Choose program</option>
+            <option value="CSIT">CSIT</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="BIM">BIM</option>
+          </select>
+        </div>
+
+        <div class="selector">
+          <label for="semester">Semester</label>
+          <select name="semester" id="semester">
+            <option value="0">Choose semester</option>
+            <option value="1">First</option>
+            <option value="2">Second</option>
+            <option value="3">Third</option>
+            <option value="4">Fourth</option>
+            <option value="5">Fifth</option>
+            <option value="6">Sixth</option>
+            <option value="7">Seventh</option>
+            <option value="8">Eighth</option>
+          </select>
+        </div>
+
+        <div class="selector">
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject">
+            <option value="none">Choose subject</option>
+          </select>
+        </div>
+
+        <div class="selector">
+          <button type="button" onclick="loadAttendanceList()" id="loader">
+            &emsp;Load&emsp;
+          </button>
+          <button type="submit" id="submit">
+            &emsp;Save Attendance&emsp;
+          </button>
+        </div>
+      </section>
+
+      <form id="register">
+        <table>
+          <thead>
+            <tr>
+              <th>Roll No.</th>
+              <th>Name</th>
+              <th>Present</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Lorem Ipsum</td>
+              <td>
+                <input type="checkbox" checked />
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Dolor Sit</td>
+              <td>
+                <input type="checkbox" checked />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </main>
+  </body>
+</html>
