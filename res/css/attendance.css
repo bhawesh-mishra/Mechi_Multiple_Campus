@@ -34,7 +34,7 @@ h2 {
 }
 
 main {
-  padding: 4rem 8rem;
+  padding: 4rem;
   display: flex;
   flex-direction: column;
   gap: 3rem 0;
@@ -79,7 +79,7 @@ button {
 }
 
 table {
-  width: 60%;
+  width: 40%;
 }
 table,
 th,
@@ -91,6 +91,18 @@ td {
 th {
   font-size: 1.1rem;
   background-color: lightgrey;
+}
+th:first-child,
+td:first-child,
+th:last-child,
+td:last-child {
+  width: max-content;
+  text-wrap: nowrap;
+}
+th:nth-child(2),
+td:nth-child(2) {
+  width: 100%;
+  text-wrap: wrap;
 }
 tr > td:first-child,
 tr > td:last-child {

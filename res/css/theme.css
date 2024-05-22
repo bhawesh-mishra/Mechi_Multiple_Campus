@@ -42,7 +42,7 @@ a {
 }
 a:active,
 a:hover {
-  color: var(--tertiary-color);
+  color: var(--auxillary-color);
 }
 
 select,
