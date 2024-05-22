@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--header-shadow);
+    background-color: var(--main-color);
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right:2ch;
+    height: calc(var(--h1-size) * 2 + 1rem);
+    width: auto;
+  }
+  h1 {
+    display: inline;
+    color: var(--accent-color);
+    font-size: var(--h1-size);
+  }

@@ -10,5 +10,6 @@
   --input-padding: 0.8rem;
   --transition-time: 0.3s;
   --h1-size: 2rem;
-  --grid-gap:.5rem;
+  --grid-gap: 0.5rem;
+  --header-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
 }
